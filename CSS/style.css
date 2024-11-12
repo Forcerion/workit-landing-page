@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #24053E;
+    padding-bottom: 300px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+
+.navbar a {
+    color: white;
+    margin-top: 12px;
+    text-decoration: underline 1px #44FFA1;
+}
+
+.main-title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 56px;
+    font-family: "Fraunces", serif;
+    font-size: 80px;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.underline-in-title {
+    text-decoration: underline  #44FFA1;
+}
+
+.main-title a {
+    background-color: #44FFA1;
+    text-decoration: none;
+    padding: 12px 32px 12px 32px;
+    color: black;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+}
+
+.phone-image {
+    text-align: center;
+    margin-top: -150px;
+    z-index: 20;
+    position: relative;
+    /* background-color: #FCF8FF; */
+}
+
+.phone-img {
+    z-index: 20;
+}
+
+.first-ornamental {
+    width: 100%;
+    position: absolute;
+    bottom: 290px;
+    z-index: -1;
+    left: 0;
+}
+
+.value {
+    background-color: #FCF8FF;
+    padding-top: 40px;
+    padding: 86px 160px 144px 160px;
+}
+.all-value {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.value span {
+    font-family: "Fraunces", serif;
+}
+
+ul {
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+li {
+    max-width: 352px;
+}
+
+li span {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+}
+
+.value-number {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    border: 1px solid #24053E;
+    border-radius: 100%;
+    color: #24053E;
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li p {
+    font-family: "Manrope", sans-serif;
+}
+
+.second-ornamental {
+    /* padding-top: 216px; */
+    width: 100%;
+    margin-bottom: 0;
+}
